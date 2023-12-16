@@ -1,14 +1,20 @@
 package edu.kis.vh.nursery;
 
-import edu.kis.vh.nursery.factory.DefaultRhymersFactory;
+<<<<<<< HEAD
+=======
+>>>>>>> 8133106 (3.1 Changed names of the classes)
 import edu.kis.vh.nursery.factory.Rhymersfactory;
 
 class RhymersDemo {
 
 	public static void main(String[] args) {
-		Rhymersfactory factory = new DefaultRhymersFactory();
+		Rhymersfactory factory = new RhymersInitialization();
 		
+<<<<<<< HEAD
 		DefaultRhymer[] rhymers = { factory.GetStandardRhymer(), factory.GetFalseRhymer(),
+=======
+		DefafultRhymer[] rhymers = { factory.GetStandardRhymer(), factory.GetFalseRhymer(),
+>>>>>>> 8133106 (3.1 Changed names of the classes)
 				factory.GetFIFORhymer(), factory.GetHanoiRhymer()};
 		
 		for (int i = 1; i < 15; i++)
