@@ -6,16 +6,16 @@ public class FIFORhymer extends DefafultRhymer {
 
 	
 	@Override
-	public int countOut() {
+	public int decreaseCount() {
 		while (!callCheck())
 			
-		temp.countIn(super.countOut());
+		temp.increaseCount(super.decreaseCount());
 		
-		int ret = temp.countOut();
+		int ret = temp.decreaseCount();
 		
 		while (!temp.callCheck())
 			
-		countIn(temp.countOut());
+		increaseCount(temp.decreaseCount());
 		
 		return ret;
 	}

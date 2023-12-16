@@ -9,10 +9,10 @@ int totalRejected = 0;
 		return totalRejected;
 	}
 
-	public void countIn(int in) {
-	if (!callCheck() && in > peekaboo())
+	public void increaseCount(int in) {
+	if (!callCheck() && in > checkRhymers())
 			totalRejected++;
 			else
-				super.countIn(in);
+				super.increaseCount(in);
 	}
 }
