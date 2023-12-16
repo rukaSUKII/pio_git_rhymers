@@ -19,3 +19,5 @@ public class FIFORhymer extends defaultCountingOutRhymer {
 		return ret;
 	}
 }
+
+//Alt+-> przesuwa na następny otwarty plik
